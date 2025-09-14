@@ -1,0 +1,17 @@
+# Exemplo de arquivo ads.txt
+# Authorized Digital Sellers
+
+# Google AdSense
+google.com, pub-0000000000000000, DIRECT, f08c47fec0942fa0
+
+# Google Ad Manager (ex-DFP)
+google.com, pub-1111111111111111, RESELLER, f08c47fec0942fa0
+
+# Amazon Publisher Services
+aps.amazon.com, pub-2222222222222222, DIRECT
+
+# Xandr (antiga AppNexus)
+appnexus.com, 333333, DIRECT, f5ab79cb980f11d1
+
+# OpenX
+openx.com, 444444, RESELLER, 6a698e2ec38604c6
