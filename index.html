@@ -116,18 +116,20 @@
     <section>
         <h2>Nossos Cursos</h2>
         <ul>
-            <li><a href="#administracao">Administração</a></li>
-            <li><a href="#computacao">Ciência da Computação</a></li>
-            <li><a href="#direito">Direito</a></li>
-            <li><a href="#engenharia">Engenharia Civil</a></li>
-            <li><a href="#medicina">Medicina</a></li>
+            <li><a href="Engenharia da Computação">Engenharia da Computação</a></li>
+            <li><a href="adminstração">Adminstração</a></li>
+            <li><a href="Ciência da Computação">Ciência da Computação</a></li>
+            <li><a href="Direito">Direito</a></li>
+            <li><a href="Engenharia Civil">Engenharia Civil</a></li>
+            <li><a href="Medicina">Medicina</a></li>
+            <li><a href="Engenharia Eletrica">Engenharia Eletrica</a></li>
         </ul>
         <!-- Comentário 4 (SEO) Concluído: Lista de cursos não possui links internos, reduzindo a interligação e relevância interna -->
     </section>
 
     <section id="infra">
         <h2>Infraestrutura</h2>
-        <img id="campus" src="campus.png" alt="imagem do campus da Faculdade Exemplo">
+        <img id="campus" src="campus.png" alt="imagem do campus da Faculdade Exemplo" width="300px" height="300px">
         <p>Nosso campus conta com biblioteca, laboratórios modernos e áreas de convivência.</p>
         <p>Estamos sempre investindo em tecnologia e inovação.</p>
         <!-- Comentário 5 (SEO) Concluído: Imagem sem atributo alt não contribui para SEO em buscas por imagens -->
@@ -141,74 +143,369 @@
     </section>
 
     <section>
-        <h2>Notícias Recentes</h2>
-        <article itemscope itemtype="https://schema.org/NewsArticle">
-            <h3 itemprop="headline">Semana Acadêmica 2025</h3>
-            <p itemprop="articleBody">A Faculdade Exemplo realizou sua tradicional Semana Acadêmica com palestras e workshops.</p>
-            <meta itemprop="datePublished" content="2025-05-10">
-            <meta itemprop="author" content="Faculdade Exemplo">
-        </article>
+    <h2>Notícias Recentes</h2>
+        <article>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "headline": "Faculdade Matriz Firma Acordo de Intercâmbio com Universidades Internacionais",
+          "image": [
+            "palestra.png"
+          ],
+          "datePublished": "2025-09-01T15:00:00-03:00",
+          "author": {
+            "@type": "Person",
+            "name": "Comunicação da Faculdade Matriz"
+          }
+        }
+        </script>
+        <div class="container-flex">
+    <img src="palestra.png" 
+         alt="Alunos da Faculdade Exemplo Sorocaba em intercâmbio com universidade estrangeira" 
+         width="400">
 
-        <article itemscope itemtype="https://schema.org/NewsArticle">
-            <h3 itemprop="headline">Parceria Internacional</h3>
-            <p itemprop="articleBody">Firmamos acordo com universidades estrangeiras para intercâmbio de alunos.</p>
-            <meta itemprop="datePublished" content="2025-06-15">
-            <meta itemprop="author" content="Faculdade Exemplo">
-        </article>
+    <div class="texto-ao-lado">
+        <h2>Semana Acadêmica 2025: Destaques e Inovações</h2>
+        <p>A Faculdade Exemplo Sorocaba realizou sua tradicional Semana Acadêmica, reunindo especialistas do mercado para discutir inovações e as tendências do futuro profissional em diversas áreas.</p>
+        <time datetime="2025-09-01">01 de setembro de 2025</time>
+        <h3><a href="/noticias/semana-academica-2025">Semana Acadêmica 2025: Destaques e Inovações</a></h3>
+    </div>
+</div>
+
+<style>
+    /* Estilo para o contêiner */
+    .container-flex {
+        display: flex;
+        align-items: top ; /* Faz o texto começar no top da imagem*/
+        gap: 30px; /* Adiciona um espaço entre a imagem e o texto */
+        max-width: 900px;
+        margin: 10; /* deixa o contêiner no canto da página */
+    }
+
+    /* Estilo para a imagem */
+    .container-flex img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Estilo para o texto */
+    .texto-ao-lado {
+        flex-grow: 1; /* Permite que o texto ocupe o espaço restante */
+    }
+</style>
+    </article>
+   <br>
+    <article>
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "NewsArticle",
+          "headline": "Faculdade Exemplo Sorocaba Firma Acordo de Intercâmbio com Universidades Internacionais",
+          "image": [
+            "acordo.png"
+          ],
+          "datePublished": "2025-09-01T15:00:00-03:00",
+          "author": {
+            "@type": "Person",
+            "name": "Comunicação da Faculdade Exemplo Sorocaba"
+          }
+        }
+        </script>
+        <div class="container-flex">
+    <img src="acordo.png" 
+         alt="Alunos da Faculdade Exemplo Sorocaba em intercâmbio com universidade estrangeira" 
+         width="400">
+
+    <div class="texto-ao-lado">
+        <h2>Faculdade Exemplo Sorocaba Firma Acordo de Intercâmbio com Universidades Internacionais</h2>
+        <p>Firmamos um importante acordo de cooperação com universidades estrangeiras, abrindo portas para intercâmbios acadêmicos e experiências multiculturais para nossos alunos.</p>
+        <time datetime="2025-09-01">01 de setembro de 2025</time>
+        <h3><a href="/noticias/semana-academica-2025">Acordo de intercâmbio fechado pela Faculdade Exemplo Sorocaba</a></h3>
+    </div>
+</div>
+
+<style>
+    /* Estilo para o contêiner */
+    .container-flex {
+        display: flex;
+        align-items: top ; /* Faz o texto começar no top da imagem*/
+        gap: 30px; /* Adiciona um espaço entre a imagem e o texto */
+        max-width: 900px;
+        margin: 10; /* deixa o contêiner no canto da página */
+    }
+
+    /* Estilo para a imagem */
+    .container-flex img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    /* Estilo para o texto */
+    .texto-ao-lado {
+        flex-grow: 1; /* Permite que o texto ocupe o espaço restante */
+    }
+</style>
+    </article>
         <!-- Comentário 7 (SEO) Concluído: Notícias não possuem marcação estruturada (Schema.org) para artigos -->
     </section>
 
-    <section>
-        <h2>Depoimentos</h2>
-        <blockquote itemscope itemtype="https://schema.org/Review">
-            <p itemprop="reviewBody">A Faculdade Exemplo mudou minha vida. Hoje atuo em uma grande empresa graças à formação recebida.</p>
-            <footer>
-                <span itemprop="author">Rogério — Ex-Aluno</span>
-            </footer>
-            <meta itemprop="reviewRating" content="5">
-        </blockquote>
+<section>
+    <h2>Depoimentos</h2>
+    
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org/",
+      "@type": "CollegeOrUniversity",
+      "name": "FAES - Faculdade Exemplo de Sorocaba",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9", /* Nota média */
+        "bestRating": "5", /* Melhor nota possível */
+        "worstRating": "1", /* Pior nota possível */
+        "ratingCount": "127" /* Número total de avaliações */
+      }
+    }
+    </script>
+    
+    <blockquote itemprop="review" itemscope itemtype="https://schema.org/Review">
+        <p itemprop="reviewBody">"A Faculdade Exemplo Sorocaba mudou minha vida. Hoje atuo em uma grande empresa graças à formação em Engenharia de Software e à experiência prática que o curso ofereceu."</p>
+        <div style="display:none;" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+            <meta itemprop="ratingValue" content="5">/*intem prop ratingValue é a nota dada na avaliação*/
+            <meta itemprop="bestRating" content="5">
+        </div>
+        <footer>
+            - <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">João Silva</span></span>, Ex-Aluno de Engenharia de Software
+        </footer>
+    </blockquote>
 
-        <blockquote itemscope itemtype="https://schema.org/Review">
-            <p itemprop="reviewBody">Professores qualificados e ótima estrutura. Recomendo a todos.</p>
-            <footer>
-                <span itemprop="author">Vitória — Aluna</span>
-            </footer>
-            <meta itemprop="reviewRating" content="5">
-        </blockquote>
+    <blockquote itemprop="review" itemscope itemtype="https://schema.org/Review">
+        <p itemprop="reviewBody">"Professores qualificados e uma ótima estrutura de laboratórios. A qualidade de ensino em Marketing Digital superou minhas expectativas. Recomendo a todos!"</p>
+        <div style="display:none;" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+            <meta itemprop="ratingValue" content="5">
+            <meta itemprop="bestRating" content="5">
+        </div>
+        <footer>
+            - <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Ana Paula</span></span>, Aluna de Marketing Digital
+        </footer>
+    </blockquote>
+        <blockquote itemprop="review" itemscope itemtype="https://schema.org/Review">
+        <p itemprop="reviewBody">"Não foi apenas o diploma. A Faculdade Exemplo Sorocaba me deu a confiança e a rede de contatos que eu precisava. Graças ao suporte do departamento de carreiras, consegui meu primeiro emprego na área de Relações Públicas logo após a formatura."</p>
+        <div style="display:none;" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+            <meta itemprop="ratingValue" content="5">
+            <meta itemprop="bestRating" content="5">
+        </div>
+        <footer>
+            - <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Camila Souza</span></span>, Recém-formada em Comunicação Social
+        </footer>
+    </blockquote>
+
+    <blockquote itemprop="review" itemscope itemtype="https://schema.org/Review">
+        <p itemprop="reviewBody">"A infraestrutura é um grande diferencial. Os laboratórios de pesquisa em Biotecnologia são de última geração, e a orientação dos professores me permitiu participar de um projeto de pesquisa real. Experiência inigualável."</p>
+        <div style="display:none;" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+            <meta itemprop="ratingValue" content="5">
+            <meta itemprop="bestRating" content="5">
+        </div>
+        <footer>
+            - <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Pedro Henrique</span></span>, Aluno do 7º período de Biotecnologia
+        </footer>
+    </blockquote>
+
+    <blockquote itemprop="review" itemscope itemtype="https://schema.org/Review">
+        <p itemprop="reviewBody">"Eu estava perdida e não sabia qual carreira seguir. A Faculdade Exemplo Sorocaba me acolheu e os professores me ajudaram a descobrir minha paixão por Design Gráfico. Hoje, me sinto realizada e segura do meu futuro profissional."</p>
+        <div style="display:none;" itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
+            <meta itemprop="ratingValue" content="5">
+            <meta itemprop="bestRating" content="5">
+        </div>
+        <footer>
+            - <span itemprop="author" itemscope itemtype="https://schema.org/Person"><span itemprop="name">Mariana Costa</span></span>, Aluna de Design Gráfico
+        </footer>
+    </blockquote>
+</section>
         <!-- Comentário 8 (SEO) Concluído: Depoimentos não possuem dados estruturados (review schema) para melhorar destaque no Google -->
-    </section>
 
-    <section>
-        <h2>Fale Conosco</h2>
-        <form action="obrigado.html" method="post">
-            <label>Nome:</label><br>
-            <input type="text" name="nome" required><br><br>
-            <label>Email:</label><br>
-            <input type="email" name="email"><br><br>
-            <textarea name="mensagem" rows="5" cols="30" placeholder="Escreva sua mensagem..." required></textarea><br><br>
-            <input type="submit" value="Enviar">
-        </form>
+       <section class="contato-section">
+    <h2>Fale Conosco</h2>
+    <p>Tem dúvidas sobre nossos cursos, processo seletivo ou vida no campus? Preencha o formulário abaixo e nossa equipe de atendimento entrará em contato com você o mais breve possível para ajudar na sua jornada rumo ao ensino superior de qualidade.</p>
+    <form action="/obrigado.html" method="post">
+        <div class="form-group">
+            <label for="nome">Nome Completo:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+        </div>
+        <div class="form-group">
+            <label for="email">Seu Melhor Email:</label>
+            <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+        </div>
+        <div class="form-group">
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Digite sua mensagem aqui..."></textarea>
+        </div>
+        <input type="submit" value="Enviar Mensagem">
+    </form>
+</section>
+
+<style>
+    .contato-section {
+        max-width: 600px;
+        margin: 40px auto;
+        padding: 30px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+    }
+    .contato-section h2 {
+        text-align: center;
+        color: #004a7c;
+    }
+    .contato-section p {
+        text-align: center;
+        margin-bottom: 2em;
+    }
+    .contato-section form {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-group {
+        margin-bottom: 1em;
+    }
+    .form-group label {
+        display: block;
+        margin-bottom: 0.5em;
+        font-weight: bold;
+    }
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box; /* Garante que padding não afeta a largura total */
+    }
+    .form-group input:focus,
+    .form-group textarea:focus {
+        border-color: #007bff;
+        outline: none;
+    }
+    .contato-section input[type="submit"] {
+        background-color: #007bff;
+        color: #fff;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 1em;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+    .contato-section input[type="submit"]:hover {
+        background-color: #0056b3;
+    }
+</style>
         <!-- Comentário 9 (SEO) Concluído: Formulário não possui página de obrigado (thank you page) indexável para rastreamento de conversões -->
     </section>
 </main>
 
 <footer>
-    <p>&copy; 2025 FAES - Todos os direitos reservados</p>
-    <p>Endereço: Rua da Educação, 123 - Cidade Estudantil | Telefone: (15) 4002-8922</p>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollegeOrUniversity",
+      "name": "Faculdade Matriz",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Rua do ensino, 1010",
+        "addressLocality": "Sorocaba",
+        "addressRegion": "SP"
+      },
+      "telephone": "(15) 4002-8922"
+    }
+    </script>
 
-    <nav>
-        <a href="sitemap.html">Mapa do Site</a> | 
-        <a href="politica-privacidade.html">Política de Privacidade</a> | 
-        <a href="termos-uso.html">Termos de Uso</a>
-    </nav>
+    <div class="footer-container">
+        <div class="footer-column">
+            <h3>Fale Conosco</h3>
+            <p>Endereço: Rua do ensino, 1010 - Cidade Sorocaba</p>
+            <p>Telefone: <a href="tel:+551540028922">(15) 4002-8922</a></p>
+        </div>
 
-    <div class="social">
-        <a href="https://www.facebook.com/faculdadeexemplo" target="_blank" rel="noopener">Facebook</a> | 
-        <a href="https://www.instagram.com/faculdadeexemplo" target="_blank" rel="noopener">Instagram</a> | 
-        <a href="https://www.linkedin.com/school/faculdadeexemplo" target="_blank" rel="noopener">LinkedIn</a>
+        <div class="footer-column">
+            <h3>Links Importantes</h3>
+            <ul>
+                <li><a href="/mapa-do-site.xml">Mapa do Site</a></li>
+                <li><a href="/politica-de-privacidade">Política de Privacidade</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-column">
+            <h3>Siga-nos</h3>
+            <div class="social-icons">
+                <a href="https://www.facebook.com/FaculdadeExemploSorocaba" target="_blank" rel="noopener noreferrer">Facebook</a>
+                <a href="https://www.instagram.com/FaculdadeExemploSorocaba" target="_blank" rel="noopener noreferrer">Instagram</a>
+                <a href="https://www.linkedin.com/school/FaculdadeExemploSorocaba" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
     </div>
-    <!-- Comentário 10 (SEO) Concluído: Rodapé não contém links para sitemap, política de privacidade e redes sociais otimizadas -->
+    
+    <div class="copyright">
+        <p>&copy; 2025 Faculdade Exemplo Sorocaba. Todos os direitos reservados.</p>
+    </div>
+
 </footer>
+
+<style>
+    footer {
+        background-color: #f0f0f0;
+        color: #555;
+        padding: 40px 20px;
+        font-family: Arial, sans-serif;
+    }
+    .footer-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        gap: 30px;
+        max-width: 1200px;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .footer-column {
+        flex: 1;
+        min-width: 200px;
+    }
+    .footer-column h3 {
+        color: #004a7c;
+        border-bottom: 2px solid #ccc;
+        padding-bottom: 10px;
+        margin-bottom: 20px;
+    }
+    .footer-column ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    .footer-column li {
+        margin-bottom: 10px;
+    }
+    .footer-column a {
+        color: #555;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    .footer-column a:hover {
+        color: #007bff;
+    }
+    .social-icons a {
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .copyright {
+        text-align: center;
+        margin-top: 40px;
+        padding-top: 20px;
+        border-top: 1px solid #ddd;
+    }
+</style>
 
 </body>
 </html>
